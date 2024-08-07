@@ -5,7 +5,8 @@ let routerMode = "hash";
 let imgBaseUrl = "";
 
 if (process.env.NODE_ENV == "development") {
-  imgBaseUrl = "/img/";
+  // imgBaseUrl = "/img/";
+  imgBaseUrl = "https://elm.cangdu.org/img/";
 } else if (process.env.NODE_ENV == "production") {
   // 待办 这里修改成自己的网址
   baseUrl = "//elm.cangdu.org";

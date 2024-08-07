@@ -7,12 +7,14 @@
   "license": "GPL",
   "scripts": {
     "local": "cross-env NODE_ENV=local node build/dev-server.js",
+    "online": "cross-env NODE_ENV=online node build/dev-server.js",
     "build": "node build/build.js"
   },
   "dependencies": {
     "better-scroll": "1.15.2",
     "fastclick": "^1.0.6",
     "iscroll": "^5.2.0",
+    "module-alias": "^2.2.3",
     "showdown": "^1.6.4",
     "vue": "^2.1.0",
     "vue-router": "^2.1.1",

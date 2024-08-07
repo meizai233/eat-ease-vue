@@ -39,11 +39,11 @@ var context = config.dev.context;
 
 switch (process.env.NODE_ENV) {
   case "local":
-    var proxypath = "http://localhost:3000";
+    var proxypath = "http://127.0.0.1:3000";
     break;
   // 待办 修改名称 部署
   case "online":
-    var proxypath = "https://elm.cangdu.org";
+    var proxypath = "http://47.121.207.171:3000";
     break;
   default:
     var proxypath = config.dev.proxypath;

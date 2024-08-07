@@ -1,8 +1,8 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import routes from "./router/router";
-import store from "./store";
-import { routerMode } from "./config/env";
+import routes from "src/router/router";
+import store from "src/store";
+import { routerMode } from "src/config/env";
 
 Vue.use(VueRouter);
 const router = new VueRouter({
